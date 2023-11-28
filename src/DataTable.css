@@ -1,0 +1,27 @@
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .table td {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table td.secondary-info {
+    display: none;
+  }
+}

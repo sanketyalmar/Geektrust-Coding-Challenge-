@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pagination-button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.pagination button:first-child,
+.pagination button:last-child {
+  background-color: grey;
+}
+
+.pagination-button.active {
+  background-color: #ff5733;
+  color: #fff;
+}
